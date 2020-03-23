@@ -1,42 +1,64 @@
-##  《野路子搞算法》| 沉淀、分享、成长，让自己和他人都能有所收获！
+##  《ASM4 使用指南》| 沉淀、分享、成长，让自己和他人都能有所收获！
 
-> 本文档是作者小傅哥通过从```leetcode```、```剑指offer```、```编程之美``` 等资料中收集算法题目并加以逻辑分析和编码搞定题目，最终编写资料到本文档中，为大家提供在算法领域的帮助。如果本文能为您提供帮助，请给予支持(关注、点赞、分享)！
+> ASM 是一个 Java 字节码操控框架。它能被用来动态生成类或者增强既有类的功能。ASM 可以直接产生二进制 class 文件，也可以在类被加载入 Java 虚拟机之前动态改变类行为。Java class 被存储在严格格式定义的 .class 文件里，这些类文件拥有足够的元数据来解析类中的所有元素：类名称、方法、属性以及 Java 字节码（指令）。如果本文能为您提供帮助，请给予支持(关注、点赞、分享)！
 
-> **作者：** 小傅哥，Java Developer，[:trophy:CSDN 博客专家](https://bugstack.blog.csdn.net)，[:pencil2:GitChat专栏作者](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+> 小傅哥，Java Developer，[:trophy:CSDN 博客专家](https://bugstack.blog.csdn.net)，[:pencil2:GitChat专栏作者](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
 
 <div align="center">
-<a href="https://github.com/MyGitBooks/niubility-algorithm"><img src="https://badgen.net/github/stars/MyGitBooks/niubility-algorithm?icon=github&color=4ab8a1"></a>
-<a href="https://itstack.org/_media/qrcode.png?x-oss-process=style/may"><img src="https://badgen.net/github/forks/MyGitBooks/niubility-algorithm?icon=github&color=4ab8a1"></a>
-<a href="http://niubility-algorithm.itstack.org" target="_blank"><img src="https://itstack.org/_media/onlinebook.svg"></a>
+<a href="https://github.com/MyGitBooks/asm"><img src="https://badgen.net/github/stars/MyGitBooks/asm?icon=github&color=4ab8a1"></a>
+<a href="https://itstack.org/_media/qrcode.png?x-oss-process=style/may"><img src="https://badgen.net/github/forks/MyGitBooks/asm?icon=github&color=4ab8a1"></a>
+<a href="http://asm.itstack.org" target="_blank"><img src="https://asm.itstack.org/_media/onlinebook.svg"></a>
 <a href="https://itstack.org/_media/qrcode.png?x-oss-process=style/may"><img src="https://itstack.org/_media/wxbugstack.svg"></a>
 </div>
 <br/>
 
-| &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; 解题 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; |  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 面试题库 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 算法思维&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  | &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 数据结构&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  | 
-| :---: |  :---: |  :---: | :---: |
-| [:hocho:](#hocho-解题) | [:books:](#books-面试题库) | [:key:](#key-算法思维) | [:cookie:](#cookie-数据结构) |  
-
 <br/>
 <div align="center">
-    <a href="http://niubility-algorithm.itstack.org" style="text-decoration:none"><img src="http://niubility-algorithm.itstack.org/_media/tree.png" width="128px"></a>
+    <a href="http://asm.itstack.org" style="text-decoration:none"><img src="http://asm.itstack.org/_media/tree.png" width="128px"></a>
 </div>
 <br/>  
 
-## :hocho: 解题
-
-* [`两数之和`](https://github.com/MyGitBooks/niubility-algorithm/blob/master/docs/notes/%E8%A7%A3%E9%A2%98/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md)
-
-## :books: 面试题库
-
-* [`编写中`](#)
-
-## :key: 算法思维
-
-* [`编写中`](#)
-
-## :cookie: 数据结构
-
-* [`编写中`](#)
+* :memo: 目录
+    * [第 1 章 - 引言](/docs/notes/1引言.md)
+    * `第一部分 核心 API`
+    * [第 2 章 - 类](notes/2.0类.md) 
+        * [2.1 结构](notes/2.1结构.md)    
+        * [2.2 接口和组件](notes/2.2接口和组件.md)    
+        * [2.3 工具](notes/2.3工具.md)    
+    * [第 3 章 - 方法](/docs/notes/3.0方法.md) 
+        * [3.1 结构](/docs/notes/3.1结构.md)    
+        * [3.2 接口和组件](/docs/notes/3.2接口和组件.md)    
+        * [3.3 工具](/docs/notes/3.3工具.md)    
+    * [第 4 章 - 元数据](/docs/notes/4.0元数据.md)     
+        * [4.1 泛型](/docs/notes/4.1泛型.md)    
+        * [4.2 注释](/docs/notes/4.2注释.md)    
+        * [4.3 调试](/docs/notes/4.3调试.md)   
+    * [第 5 章 - 后向兼容](/docs/notes/5.0后向兼容.md)
+        * [5.1 引言](/docs/notes/5.1引言.md)    
+        * [5.2 规则](/docs/notes/5.2规则.md)    
+    * `第二部分 树 API`   
+    * [第 6 章 - 类](/docs/notes/6.0类.md) 
+        * [6.1 接口和组件](/docs/notes/6.1接口和组件.md)        
+        * [6.2 组件合成](/docs/notes/6.2组件合成.md)        
+    * [第 7 章 - 方法](/docs/notes/7.0方法.md)  
+        * [7.1 接口和组件](/docs/notes/7.1接口和组件.md)   
+        * [7.2 组件合成](/docs/notes/7.2组件合成.md)   
+    * [第 8 章 - 方法分析](/docs/notes/8.0方法分析.md) 
+        * [8.1 介绍](/docs/notes/8.1介绍.md)   
+        * [8.2 组件与接口](/docs/notes/8.2组件与接口.md)   
+    * [第 9 章 - 元数据](/docs/notes/9.0元数据.md) 
+        * [9.1 泛型](/docs/notes/9.1泛型.md)    
+        * [9.2 注释](/docs/notes/9.2注释.md)    
+        * [9.2 调试](/docs/notes/9.3调试.md)    
+    * [第 10 章 - 后向兼容](/docs/notes/10.0后向兼容.md) 
+        * [10.1 介绍](/docs/notes/10.1介绍.md)    
+        * [10.2 规则](/docs/notes/10.2规则.md)      
+    * [A. 附录](/docs/notes/A.0附录.md) 
+        * [A.1 字节代码指令](/docs/notes/A.1字节代码指.md)
+        * [A.2 子例程](/docs/notes/A.2子例程.md)
+        * [A.3 属性](/docs/notes/A.3属性.md)
+        * [A.4 规则](/docs/notes/A.4规则.md)
+        * [A.5 性能](/docs/notes/A.5性能.md)
 
 ---
 
