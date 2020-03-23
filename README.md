@@ -7,7 +7,7 @@
 <div align="center">
 <a href="https://github.com/MyGitBooks/asm"><img src="https://badgen.net/github/stars/MyGitBooks/asm?icon=github&color=4ab8a1"></a>
 <a href="https://itstack.org/_media/qrcode.png?x-oss-process=style/may"><img src="https://badgen.net/github/forks/MyGitBooks/asm?icon=github&color=4ab8a1"></a>
-<a href="http://asm.itstack.org" target="_blank"><img src="https://asm.itstack.org/_media/onlinebook.svg"></a>
+<a href="http://asm.itstack.org" target="_blank"><img src="https://itstack.org/_media/onlinebook.svg"></a>
 <a href="https://itstack.org/_media/qrcode.png?x-oss-process=style/may"><img src="https://itstack.org/_media/wxbugstack.svg"></a>
 </div>
 <br/>
